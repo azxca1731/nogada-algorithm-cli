@@ -1,0 +1,33 @@
+{
+	"name": "nogada-algorithm-cli",
+	"version": "1.0.0",
+	"description": "cli for solve problem to baekjoon",
+	"main": "index.js",
+	"author": "azxca1731@gmail.com",
+	"license": "MIT",
+	"scripts": {
+		"prepublish": "tsc",
+		"develop": "tsc -watch lib/index.ts"
+	},
+	"bin": {
+		"ngd-algo": "bin/index.js"
+	},
+	"devDependencies": {
+		"@types/node": "^11.13.2",
+		"typescript": "^3.4.2"
+	},
+	"keyword": [
+		"cli",
+		"algorithm",
+		"baekjoon",
+		"solve problem"
+	],
+	"dependencies": {
+		"chalk": "^2.4.2",
+		"commander": "^2.20.0",
+		"mkdirp": "^0.5.1",
+		"open": "^6.1.0",
+		"progress": "^2.0.3",
+		"puppeteer": "^1.14.0"
+	}
+}
