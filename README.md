@@ -10,6 +10,16 @@ nogada-algorithm-cli는 솔직히 그냥 백준에서 문제따오고 또 모하
 
 이 모든 기능을 그저 ngd-algo만 치면 할 수 있습니다.
 
+설치는 간단합니다.
+
+```code
+yarn add global nogada-algorithm-cli
+or
+npm install -g nogada-algorithm-cli
+```
+
+위에 둘 중에 하나로 설치하시면 됩니다.
+
 ---
 
 ### 사용법
