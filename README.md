@@ -13,7 +13,7 @@ nogada-algorithm-cli는 솔직히 그냥 백준에서 문제따오고 또 모하
 설치는 간단합니다.
 
 ```code
-yarn add global nogada-algorithm-cli
+yarn global add nogada-algorithm-cli
 or
 npm install -g nogada-algorithm-cli
 ```
